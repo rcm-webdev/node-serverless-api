@@ -20,4 +20,9 @@ app.use((req, res, next) => {
   });
 });
 
+//this is for a serverful application
+// app.listen(2121, () => {
+//   console.log("Server is running on port 2121");
+// });
+
 exports.handler = serverless(app);
