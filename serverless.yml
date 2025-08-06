@@ -11,6 +11,7 @@ provider:
   environment:
     # Define environment variables here
     DATABASE_URL: ${env:DATABASE_URL, "fallback value"}
+    
 
 functions:
   api:
